@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 
-interface Iswap{
+interface IPool{
     function swap(address _tokenIn, uint256 _amountIn) external returns (uint256 _amountOut);
     function addLiquidity(uint _amount0, uint _amount1)external returns(uint shares);
     function removeLiquidity(
