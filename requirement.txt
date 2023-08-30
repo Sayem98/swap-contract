@@ -31,3 +31,16 @@ BNB-$PACO
 PacoEarn is a mechanism where the fees go into a pool, which is then distributing 1% of the total
 allocated amount in the pool to all PACO token holders on a daily basis. The proportion of their earnings
 is based on how many PACO tokens the participant is holding/staking on our platform.
+
+
+For token swaps (trades) below $1000, a 0.195% fee is applied, divided as follows:
+
+- 0.075% LP Reward for Liquidity Providers (changed)
+- 0.025% PACO Lottery PrizePool (New pool)
+
+For token swaps (trades) above $1000, a 0.1% fee is charged, divided as follows:
+
+- 0.035% LP Reward for Liquidity Providers (changed)
+- 0.015% PACO Lottery PrizePool (New pool)
+
+All other pools remain unchanged.
